@@ -1,0 +1,8 @@
+node_modules/
+.env
+fresh-sessions.json
+*-sessions.json
+compare-sessions.json
+compare-results/
+
+.DS_Store

@@ -1,0 +1,15 @@
+{
+  "name": "pay-performance-test",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Local-only benchmark harness for QDay payment flow.",
+  "type": "commonjs",
+  "scripts": {
+    "setup": "node setup-bench-sessions.js",
+    "bench": "node bench-pay.js"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "viem": "2.21.55"
+  }
+}
